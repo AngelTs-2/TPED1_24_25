@@ -1,0 +1,71 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+#caja_superior {
+    background-image: url(fondo.jpg);
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    padding: 20vw;
+}
+
+#caja_media {
+    height: 100vh;
+    padding: 15vw;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 100px;
+    font-weight: 100;  
+}
+
+h2 {
+    color:darkgrey;
+    font-size: 20px;
+}
+
+p {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 100;
+}
+
+ul {
+    color: white;
+    list-style: none;
+    padding: 15vw;
+    font-size: 50px;
+    font-weight: 100; 
+  }
+
+#caja_inferior {
+    background-color: black;
+    height: 100vh;
+}
+
+li {
+    padding: 10px;
+}
+
+#tachado:link{
+    text-decoration: none;
+}
+
+#tachado:hover{
+    text-decoration: line-through;
+    text-decoration-color: crimson;
+}
+
+#subrayado:link{
+    text-decoration: none;
+}
+
+#subrayado:hover{
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+}
+
+
