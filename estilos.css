@@ -1,23 +1,42 @@
+
 h1{
     color:black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 4em;
+    font-size: 5em;
     text-align: center;
 }
 
 h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: oblique;
-    color: dimgrey;
+    color: grey;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
+    font-size: 1.5em;
 }
 
 ol li {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: unset;
     width: 20%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 41%;
     line-height: 2em;
+    text-align: center;
+    font-size:larger;
+    margin-bottom: 20px;
 }
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:darkcyan;
+}
+
