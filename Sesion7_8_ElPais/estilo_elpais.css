@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:midnightblue;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+}
+
+header ul li{
+    display: inline-block;
+    width: 33%;
+    color: white;
+    
+}
+
+header ul li a:link{
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a:visited {
+    color: white
+}
+
+header ul li a:hover {
+    color:aquamarine;
+}
+
+section {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4em;
+}
+
+h4 {
+    font-weight: normal;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#capitular:first-letter{
+	font-size: 9em;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight:bold;
+	float:left;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+span.Importante{
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 37%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 150%;
+}
+
+article ul li {
+    list-style: none;
+    margin: 0;
+}
+
+article h3 {
+    font-weight: bold;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.Inicial {
+    width: 100%;
+    height: 100%;
+}
+
+img.Logos1 {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.Logos2 {
+    width: 38%;
+    height: 38%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.Banner {
+    width: 37%;
+    height: 37%;
+    margin-bottom: 20px;
+}
