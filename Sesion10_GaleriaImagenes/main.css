@@ -1,0 +1,26 @@
+header {
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: gray;
+    font-style: italic;
+}
+
+h2{
+    margin-bottom: 5%;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1);
+}
