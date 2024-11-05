@@ -7,8 +7,13 @@
 header{
     background-color:midnightblue;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 17px;
     text-align: center;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 header ul li{
