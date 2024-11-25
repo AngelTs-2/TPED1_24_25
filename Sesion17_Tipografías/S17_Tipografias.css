@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Barriecito&family=Cherry+Bomb+One&family=Indie+Flower&family=Monsieur+La+Doulaise&family=Rubik+Puddles&family=Sigmar+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  padding: 10vh;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  background-color: rgb(207, 207, 207);
+}
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: gray;
+  font-style: italic;
+
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+
+  background-color: rgb(207, 207, 207);
+}
+
+.columna {
+  flex: 30%;
+  padding: 1vh;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+.tipografias {
+    padding: 5vh;
+    margin-bottom: 2vh;
+
+    background-color:white;
+    border-radius: 2vh;
+    height: 55vh;
+}
+
+h1 {
+  margin-bottom: 2vh;
+}
+
+h2 {
+  margin-bottom: 5%;
+}
+
+/*img {
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1);
+}*/
+
+.tinos-regular {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-puddles-regular {
+  font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barriecito-regular {
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cherry-bomb-one-regular {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sigmar-one-regular {
+  font-family: "Sigmar One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.monsieur-la-doulaise-regular {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
