@@ -1,0 +1,40 @@
+div {
+    box-sizing: border-box; /* para que los bordes, paddings estén en la anchura (determinada por col) */
+}
+
+
+#imagenes {
+    height: 60vh;
+    width: 100%;
+}
+
+
+
+.arriba {
+    background-color: chartreuse;
+    height: 60vh;
+}
+
+.izquierda {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10vh;
+}
+
+.derecha {
+    background-color: blueviolet;
+    height: 150vh;
+}
+
+#pie {
+    background-color: blue;
+    height: 10vh;
+}
+
+@media (min-width: 768px) {
+    #galeria div{
+        width: 50%;  /* se aplica desde min-width desde 768px */
+    }
+}        
