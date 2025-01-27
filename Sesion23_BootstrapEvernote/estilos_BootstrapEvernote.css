@@ -1,0 +1,56 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+header img {
+    max-height: 50px;
+}
+
+nav a {
+    font-weight: bold;
+    color: #28a745;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #1e7e34;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section.bg-light {
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.col-md-4 img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+footer small {
+    color: #666;
+}
